@@ -1,0 +1,204 @@
+
+
+
+body{
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.staticHeader{
+  width:25%;
+  height: 75px;
+  position: fixed;
+  float: left;
+  font-size: 12px;
+  color: blue;
+  background-color: gainsboro;
+  /*box-shadow: 8px 16px 0px rgba(0,0,0,0.2);*/
+
+}
+
+.fifty{
+  width:32%;
+  float:left;
+}
+.floatLeft{
+  float:left;
+  width:120px;
+}
+.menuBar{
+width: 100%;
+border-left: 2px solid yellow;
+float: right;
+font-family: fantasy;
+color: blue;
+position: fixed;
+left: 242px;
+background-color: gainsboro;
+padding: 20px;
+padding-left: 300px;
+list-style: none;
+
+
+/*box-shadow: 8px 16px 0px rgba(0,0,0,0.2);*/
+}
+.menuBar ul li{
+
+  list-style: none;
+}
+.menuBar ul li:hover{
+text-decoration: underline;
+color: black;
+
+}
+.welcomepage {
+  width: 100%;
+  text-align: center;
+  /*background-color: yellow;*/
+  margin-bottom: 40px;
+  background-color: yellow;
+  border-left: 2px solid black;
+  float:left;
+  font-family: fantasy;
+  /*padding: 20px;*/
+  padding-top: 100px;
+  padding-right: 6px;
+
+}
+.content  {
+  font-size: 5;
+
+}
+.content p{
+  text-transform: uppercase;
+  text-emphasis-color: blue;
+
+}
+.columnherounit
+{
+  width: 100%;
+  vertical-align: middle;
+  text-align: center;
+  margin-top: 40px;
+
+  padding-right: 6px;
+
+}
+.columnherounit p {
+
+text-transform: uppercase;
+color: blue;
+}
+.Scholarship img {
+width:80%;
+
+}
+
+.Scholarship p {
+
+  text-transform: inherit;
+
+
+}
+.heading22{
+  text-transform: uppercase;
+}
+.Scholarship{
+    background-color: ivory;
+    width: 100%;
+    padding-right: 5px;
+
+
+}
+.Helpline{
+  width: 100%;
+  background-color: peachpuff;
+
+  vertical-align: middle;
+  text-align: center;
+  margin-top: 40px;
+
+  height: 75px;
+  padding-right: 8px;
+}
+.Helpline p{
+  margin-top: 40px;
+  padding-top: 25px;
+  text-align:
+
+}
+
+.websitefooter
+{
+  width:100%;
+  vertical-align: top;
+  background-color: #666C65;
+padding-right: 8px;
+padding-bottom: 0;
+height: 250px;
+
+}
+.websitefooter .f1 {
+  width: 35%;
+  float: left;
+  vertical-align: top;
+display: inline-block;
+text-align: center;
+color: white;
+list-style: none;
+height: 100px;
+
+
+}
+.websitefooter .f2 {
+  width: 30%;
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  color: white;
+
+}
+.websitefooter .f2 a{
+  list-style: circle;
+  text-decoration: none;
+  color: white;
+
+}
+.websitefooter .f2 ul li  a:hover { color:green;
+}
+
+.websitefooter .f3{
+  width:35%;
+  float: right;
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  color: white;
+
+}
+form
+{
+  padding-top: 30px;
+}
+.websitefooter li{
+  list-style: none;
+}
